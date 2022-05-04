@@ -6,6 +6,9 @@ class IP{
   void setIp(String ip){
     this._ip = ip;
   }
+  String getIp(){
+    return this._ip;
+  }
   bool ipValide(){
     bool valide = false;
     int nbPoint = 0;
