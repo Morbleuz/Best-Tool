@@ -15,7 +15,12 @@ class Fonction{
     }
     return a;
   }
-  
+  static String saisirMdp(){
+    stdin.echoMode = false;
+    String mdp = saisirString();
+    stdin.echoMode = true;
+    return mdp;
+  }
   static double sairsirDouble(){
     bool valide = false;
     double a = 0;

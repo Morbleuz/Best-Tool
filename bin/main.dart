@@ -5,6 +5,4 @@ import 'ip.dart';
 void main(List<String> arguments)async {
   await IHM.afficheTitre();
   await IHM.afficheMenu();
-  IHM.afficheFin();
-
 }
