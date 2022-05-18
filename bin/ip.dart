@@ -1,32 +1,33 @@
-class IP{
-  String _ip = "192.168.12.13";
+class IP {
+  String _ip = "";
 
   IP(this._ip);
 
-  void setIp(String ip){
+  void setIp(String ip) {
     this._ip = ip;
   }
-  String getIp(){
+
+  String getIp() {
     return this._ip;
   }
-  bool ipValide(){
+
+  bool ipValide() {
     bool valide = true;
     int nbPoint = 0;
     List<String> lesNombres = this._ip.split('.');
-    if(lesNombres.length==4){
-      for(String nombre in lesNombres){
-        try{
+    if (lesNombres.length == 4) {
+      for (String nombre in lesNombres) {
+        try {
           int nbParse = int.parse(nombre);
-          if(nbParse>0 && nbParse<255){
-
-          } else{
+          if (nbParse > 0 && nbParse < 255) {
+          } else {
             valide = false;
           }
-        }catch(e){
+        } catch (e) {
           valide = false;
         }
       }
-    }else{
+    } else {
       valide = false;
     }
     return valide;
