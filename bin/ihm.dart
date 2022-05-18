@@ -2,6 +2,7 @@ import 'couleur.dart';
 import 'fonction.dart';
 import 'ihmcms.dart';
 import 'ihmcommandelinux.dart';
+import 'ihmservice.dart';
 
 class IHM {
 
@@ -44,7 +45,7 @@ class IHM {
     if(choix == "1"){
       await IHMCMDLINUX.afficheMenu();
     }else if(choix == "2"){
-
+      await IHMSERVICE.afficheMenu();
     }else if(choix == "3"){
 
     }else if(choix == "4"){

@@ -10,9 +10,8 @@ class IHMSERVICE{
     "|                    Menu Service                  |\n"+
     "|                                                  |\n"+
     "| 1 - Apache                                       |\n"+
-    "| 2 -                                              |\n"+
-    "| 3 -                                              |\n"+
-    "| 4 -                                              |\n"+
+    "| 2 - Pure-Ftpd                                    |\n"+
+    "| 3 - Openssh                                      |\n"+
     "|                                                  |\n"+
     "| R - Retour                                       |\n"+
     "+--------------------------------------------------+\n"+
@@ -27,10 +26,10 @@ class IHMSERVICE{
     String next = "";
     String choix = Fonction.saisirString();
     if(choix == "1"){
-      await IHMAPACHE.menu();
-    }else if(choix == "3"){
+      await IHMAPACHE.afficheMenu();
+    }else if(choix == "2"){
 
-    }else if(choix == "4"){
+    }else if(choix == "3"){
       
     }else if(choix == "R"){
         valide = true;

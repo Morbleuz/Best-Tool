@@ -14,7 +14,8 @@ class Service{
   //A finir
   static Future<void> nouveauSite(String nomSite) async{
     await Process.run('bash', ['-c','cd /var/www/html && mkdir $nomSite' ]);
-    await Process.run('bash', ['-c','']);
+    await Process.run('bash', ['-c','cp /etc/apache2/sites-avaible/000-default.conf /etc/apache2/sites-avaible/$nomSite.conf']);
+    
   }
 
 

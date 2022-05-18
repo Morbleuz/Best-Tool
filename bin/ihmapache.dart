@@ -7,7 +7,7 @@ class IHMAPACHE{
     Couleur.effaceScreen();
     print(Couleur.green() + 
     "+--------------------------------------------------+\n"+
-    "|                    Menu Aache                    |\n"+
+    "|                    Menu Apache                   |\n"+
     "|                                                  |\n"+
     "| 1 - Installation de Apache                       |\n"+
     "| 2 - Création d'un nouveau site (conf,dossier)    |\n"+
@@ -28,7 +28,6 @@ class IHMAPACHE{
       String reponse = await Service.installApache();
       if(reponse == "0"){
         print(Couleur.green() + "Installation correctement effectué !" + Couleur.reset());
-
       }else{
         print(Couleur.rouge()+"Erreur lors de l'installation de apache, code d'erreur : " + reponse + Couleur.reset());
       };
@@ -37,12 +36,10 @@ class IHMAPACHE{
       String nomSite = Fonction.saisirString();
       await Service.nouveauSite(nomSite);
       print(Couleur.green() + "La conf $nomSite à bien été créer dans le répertoire "+ Couleur.blue() + " /etc/apache2/site-available/$nomSite.conf" + Couleur.reset());
-    }else if(choix == "4"){
-      
     }else if(choix == "R"){
         valide = true;
         next = "fini";
-    }else {
+    }else{
       print(Couleur.rouge()+"Saisir une valeur valide !" + Couleur.reset());
       choix = Fonction.saisirString();
     }

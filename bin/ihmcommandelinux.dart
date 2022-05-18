@@ -80,8 +80,6 @@ class IHMCMDLINUX{
       print("\nAppuyez sur une touche pour continuer..."+Couleur.reset());
       next = Fonction.saisirString();
     }
-
-    
     }
   }
 }

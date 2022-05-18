@@ -13,11 +13,13 @@ class BASH{
     String code = " ; echo \$?";
     return code;
   }
+  
   static Future<String> mkdir(String nomDossier) async{
     String cmd = "mkdir $nomDossier";
     ProcessResult result = await Process.run('bash',['-c', cmd+getCode()]);
     return ligneSplit(result.stdout);
       }
+
   static Future<String> ajoutUtilisateur(String nom) async{
     String cmd = "adduser --disabled-password  " + nom;
     ProcessResult result = await Process.runSync('bash', ['-c', cmd+getCode()]);
