@@ -20,6 +20,15 @@ class BASH{
     return ligneSplit(result.stdout);
       }
 
+  static Future<bool> estRoot() async{
+    bool root = false;
+    String cmd = "id -u";
+    ProcessResult result = await Process.runSync('bash', ['-c', cmd]);
+    if(result.stdout.toString().substring(0,1)=="0"){
+      root = true;
+    }
+    return root;
+  }
   static Future<String> ajoutUtilisateur(String nom) async{
     String cmd = "adduser --disabled-password  " + nom;
     ProcessResult result = await Process.runSync('bash', ['-c', cmd+getCode()]);

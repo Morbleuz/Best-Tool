@@ -35,7 +35,9 @@ class IHM {
         Couleur.reset()  
         );
   }
-
+  static void messageNonRoot(){
+    print(Couleur.rouge() + "Veuillez relancer le programme en root" + Couleur.reset());
+  }
   static Future<void> afficheMenu() async {
     bool valide = false;
     while(!valide){
