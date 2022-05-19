@@ -67,8 +67,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Ceci est mon premier projet DevOps combinant donc le réseau et la programmation.
-J'ai donc décider de créer une application nommée Best Tool qui permet de :
+Ceci est mon premier projet DevOps combinant donc le réseau et la programmation.<br />
+J'ai donc décider de créer une application nommée <strong>Best Tool</strong> qui permet de :
 * <strong>Executer</strong> des commandes simples linux telles que ping,créer un utilisateur,..
 * <strong>Installer</strong> des services (apache,ssh,ftp) ainsi que des CMS (wordpress,joomla)
 * <strong>Sécuriser</strong> son serveur avec fail2ban et iptables
@@ -87,9 +87,7 @@ J'ai utilisé les languages suivants pour que le projet soit mené à bien :
 
 ### Organisation
 
-Pour nous'organiser nous avons choisi le logiciel notion.
-Il nous a permis de s'organiser en ses répartion les tâches, voir leur état et savoir où nous en étions
-Vous pouvez retrouver notre notion
+Pour l'organisation du projet j'ai utilisé notion ou je définis les tâches que je dois encore effectué et les tâches finis.
 
 ### Installation
 
@@ -97,19 +95,15 @@ Suivant les différentes instructions pour l'installation du logiciel :
 
 1. Cloner le repository
    ```sh
-   git clone https://github.com/Morbleuz/dart_furet.git
+   git clone git@github.com:Morbleuz/Best-Tool.git
    ```
-2. Si vous n'avez pas mariaDB
+2. Mettre les droits à l'application
    ```sh
-   apt install mariadb-server
+   chmod +x BestTool
    ```
-3. Ce mettre dans le répertoire et installer les paquets
+   3. Lancer l'application
    ```sh
-   dart pub get
-   ```
-4. Lancer le programme
-   ```sh
-   dart run bin/main.dart
+   ./BestTool
    ```
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
@@ -118,9 +112,7 @@ Suivant les différentes instructions pour l'installation du logiciel :
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
-Tout d'abord il faudra vous connecter à vôtre base de donnée faite sur vôtre ordinateur. Le logiciel vous demandes la base de donnée, le nom du l'utilisateur ainsi que son mot de passe.<br>
-Une fois les informations fournit l'utilisation de ce logiciel est plutôt simple, vous avez juste à naviguer aux travers des différents menus avec les touches "1", "2", "3" ,etc.<br>
-Pour quitter le logiciel revenez sur le menu principal et appuyé sur "Q"
+Parcourez les menus à l'aide de vôtre clavier, selectionner une option et suivez les instructions ou laissez le logiciel faire le travail.
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
 
@@ -130,7 +122,6 @@ Pour quitter le logiciel revenez sur le menu principal et appuyé sur "Q"
 
 Laude Axel : [![LinkedIn][linkedin-shield]][linkedin-url] 
 
-Sobkowiak Jonathan : [![LinkedIn][linkedin-shield]][linkedin-url2]
 
 Lien du projet: <a href="https://github.com/Morbleuz/dart_furet.git">ici</a>
 
@@ -153,5 +144,5 @@ Lien du projet: <a href="https://github.com/Morbleuz/dart_furet.git">ici</a>
 [linkedin-url]: https://www.linkedin.com/in/axel-l-b9620a228/
 [linkedin-url2]: https://www.linkedin.com/in/jonathan-sobkowiak-2b5310228/
 
-[product-screenshot]: terminal.png
+[product-screenshot]: image.png
 [diagramme]: diagramme.png
