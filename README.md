@@ -34,9 +34,9 @@
     <a href="https://github.com/Morbleuz/dart_furet/blob/main/README.md"><strong>Explorer la documentation -></strong></a>
     <br />
     <br />
-    <a href="https://github.com/Morbleuz/dart_furet/issues">Report de bug</a>
+    <a href="https://github.com/Morbleuz/Best-Tool/issues">Report de bug</a>
     ·
-    <a href="https://github.com/Morbleuz/dart_furet/issues">Posez des questions</a>
+    <a href="https://github.com/Morbleuz/Best-Tool/issues">Posez des questions</a>
   </p>
 </div>
 
@@ -50,8 +50,6 @@
       <a href="#le-projet">Le projet</a>
       <ul>
         <li><a href="#les-languages-utilisés">Les languages utilisés</a></li>
-        <li><a href="#organisation">Organisation</a></li>
-        <li><a href="#diagramme-de-classe">Le diagramme de classe</a></li>
       </ul>
     </li>
     <li><a href="#installation">Installation</a></li>
@@ -85,10 +83,6 @@ J'ai utilisé les languages suivants pour que le projet soit mené à bien :
 
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
-### Organisation
-
-Pour l'organisation du projet j'ai utilisé notion ou je définis les tâches que je dois encore effectué et les tâches finis.
-
 ### Installation
 
 Suivant les différentes instructions pour l'installation du logiciel :
@@ -112,7 +106,8 @@ Suivant les différentes instructions pour l'installation du logiciel :
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
-Parcourez les menus à l'aide de vôtre clavier, selectionner une option et suivez les instructions ou laissez le logiciel faire le travail.
+Pour l'utilisation du logiciel, une fois lancez laissez-vous guider par le menu pour choisir une option et suivez les instructions.
+Si vous avez des problèmes, des bugs, des questions ou même des suggestions je vous invite à les déposer <a href="https://github.com/Morbleuz/Best-Tool/issues">ici</a>
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
 
@@ -123,7 +118,7 @@ Parcourez les menus à l'aide de vôtre clavier, selectionner une option et suiv
 Laude Axel : [![LinkedIn][linkedin-shield]][linkedin-url] 
 
 
-Lien du projet: <a href="https://github.com/Morbleuz/dart_furet.git">ici</a>
+Lien du projet: <a href="https://github.com/Morbleuz/Best-Tool/">ici</a>
 
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
