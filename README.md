@@ -30,8 +30,7 @@
 
   <p align="center">
     Réalisé par un étudiant en BTS SIO option SLAM de 1ère année
-    <br />
-    
+    <br />   
     <a href="https://github.com/Morbleuz/dart_furet/blob/main/README.md"><strong>Explorer la documentation -></strong></a>
     <br />
     <br />
